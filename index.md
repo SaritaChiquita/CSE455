@@ -1,15 +1,21 @@
-## Welcome to GitHub Pages
+## Sarah Scott's CSE 455 Final Project
 
-You can use the [editor on GitHub](https://github.com/SaritaChiquita/CSE455/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Problem description
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+Previous work (including what you used for your method i.e. pretrained models)
+Your approach
+
+Datasets
+Results
+Discussion
+What problems did you encounter?
+Are there next steps you would take if you kept working on the project?
+How does your approach differ from others? Was that beneficial?
 
 # Header 1
 ## Header 2
