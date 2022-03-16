@@ -1,4 +1,5 @@
 ## CSE 455 Final Project
+[Final Project PResentation](url) 
 by Sarah Scott
 
 ### Kaggle Bird Classifier - Problem Description
@@ -60,20 +61,4 @@ Are there next steps you would take if you kept working on the project?
 -I can definitely make this classifier better with more time. I have a definitive overfitting problem and I believe that I can fix this issue with adding more data      augmentation and cross-validation.
 How does your approach differ from others? Was that beneficial?
 -I’m not sure if my approach differed from others, but I did get a lot of help during office hours to help me decide to start with a pretrained model. This helped me quite a bit because on my “from scratch” model, both accuracies were abysmal. 
-
-
-
-# Problem Desription
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 
