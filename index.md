@@ -32,7 +32,7 @@ rate. The odd thing is that when I transferred my Kaggle notebook to
 Google Colab, my training accuracy plummeted. It was around 99% when
 using Kaggle and then went down to 33% on Google Colab. 
 
--To increase the accuracy, I decided to use transfer learning and import 
+- To increase the accuracy, I decided to use transfer learning and import 
 a pretrained model. I initially thought that the best model for this task
 was EfficientNet and I started experimenting with different batch 
 sizes, number of epochs, and the size of the testing and training 
