@@ -17,8 +17,26 @@ birds instead of classifying only between cats and dogs
 
 ### Your approach
 ```markdown
-- My approach since the dataset of birds is massive, was to start by creating a smaller dataset with only two birds and ten training images of each bird while I got my training function up and running. After this dataset was able to be interpreted correctly, I created a larger dataset with twelve different birds as well as a testing set that only contained images of these twelve birds. Since this is a much larger dataset, I became more focused on increasing my learning and testing rate. The odd thing is that when I transferred my Kaggle notebook to Google Colab, my training accuracy plummeted. It was around 99% when using Kaggle and then went down to 33% on Google Colab. To increase the accuracy, I decided to use transfer learning and import a pretrain model. I initially thought that the best model for this task was EfficientNet and I started experimenting with different batch sizes, number of epochs, and the size of the testing and training images to find the most accurate combination. Unfortunately, when I used this model with the entire dataset, my accuracy crashed. 
-- This is when I began to use ResNet50 and both accuracies increased. I then began to rework and include many of the data augmentations that were listed in lecture (horizontal flips, color jitter, ect.) and my training accuracy increased to 99%
+- My approach since the dataset of birds is massive, was to start by 
+creating a smaller dataset with only two birds and ten training images 
+of each bird while I got my training function up and running. After 
+this dataset was able to be interpreted correctly, I created a larger
+dataset with twelve different birds as well as a testing set that only
+contained images of these twelve birds. Since this is a much larger 
+dataset, I became more focused on increasing my learning and testing
+rate. The odd thing is that when I transferred my Kaggle notebook to
+Google Colab, my training accuracy plummeted. It was around 99% when
+using Kaggle and then went down to 33% on Google Colab. To increase 
+the accuracy, I decided to use transfer learning and import a 
+pretrain model. I initially thought that the best model for this task
+was EfficientNet and I started experimenting with different batch 
+sizes, number of epochs, and the size of the testing and training 
+images to find the most accurate combination. Unfortunately, when I 
+used this model with the entire dataset, my accuracy crashed. 
+- This is when I began to use ResNet50 and both accuracies increased. 
+I then began to rework and include many of the data augmentations 
+that were listed in lecture (horizontal flips, color jitter, ect.) 
+and my training accuracy increased to 99%
 ```
 ### Datasets
 I used the Birds! Dataset on Kaggle with a few folder name modifications because Google Colab indexes folders differently than a numerical ordering. I also created an updated names file which matched each bird name to the index of the training data folder.
@@ -30,6 +48,7 @@ My final results ended up being 99% training accuracy and 32.8% testing accuracy
 
 ### Discussion
 o	What problems did you encounter?
+  
   •	It took me quite a bit of time to get Google Colab’s Jupyter notebook working since I was not familiar with pytorch other than the in-class tutorial. For the first week, I ended up transferring my data to Kaggle’s notebook feature because I kept getting strange checkpoint errors on Colab. After an embarrassingly long time in office hours, we were able to get Google Colab finally working and I was able to transfer my Kaggle notebook.
   •	I also encountered issues with long training and testing times which made experimenting with different learning rates and number of epochs very time consuming.    Furthermore, the more training images I had, the lower my training rate became, so I switch my pretrained model to EfficientNet and then ResNet50 after finding it on Torchvision’s model API
 o	Are there next steps you would take if you kept working on the project?
