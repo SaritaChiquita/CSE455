@@ -7,8 +7,8 @@ by Sarah Scott
 
 ### Kaggle Bird Classifier - Problem Description
 ```markdown
-My original problem was to create a cat and dog classifier. After I began
-, it seemed like too easy of a problem to solve compared to the
+My original problem was to create a cat and dog classifier. After I began,
+it seemed like too easy of a problem to solve compared to the
 very large bird dataset that professor Redmon posted to Kaggle. 
 I changed my project to be a bird classifier and classify 555 types of 
 birds instead of classifying only between cats and dogs
