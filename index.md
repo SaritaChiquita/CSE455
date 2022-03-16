@@ -52,13 +52,13 @@ My final results ended up being 99% training accuracy and 32.8% testing accuracy
 ```
 
 ### Discussion
-o	What problems did you encounter?
+What problems did you encounter?
   
 - It took me quite a bit of time to get Google Colab’s Jupyter notebook working since I was not familiar with pytorch other than the in-class tutorial. For the first week, I ended up transferring my data to Kaggle’s notebook feature because I kept getting strange checkpoint errors on Colab. After an embarrassingly long time in office hours, we were able to get Google Colab finally working and I was able to transfer my Kaggle notebook.
 - I also encountered issues with long training and testing times which made experimenting with different learning rates and number of epochs very time consuming.    Furthermore, the more training images I had, the lower my training rate became, so I switch my pretrained model to EfficientNet and then ResNet50 after finding it on Torchvision’s model API
-o	Are there next steps you would take if you kept working on the project?
+Are there next steps you would take if you kept working on the project?
 -I can definitely make this classifier better with more time. I have a definitive overfitting problem and I believe that I can fix this issue with adding more data      augmentation and cross-validation.
-o	How does your approach differ from others? Was that beneficial?
+How does your approach differ from others? Was that beneficial?
 -I’m not sure if my approach differed from others, but I did get a lot of help during office hours to help me decide to start with a pretrained model. This helped me quite a bit because on my “from scratch” model, both accuracies were abysmal. 
 
 
