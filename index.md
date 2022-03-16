@@ -1,12 +1,16 @@
 ## CSE 455 Final Project
 by Sarah Scott
 
-### Kaggle Bird Classifier
+#### Kaggle Bird Classifier
 
 
 ### Problem Description
 ```markdown
-My original problem was to create a cat and dog classifier. After I began more work it seemed like too easy of a problem to solve compared to the very large bird dataset that professor Redmon posted to Kaggle. I changed my project to be a bird classifier and classify 555 types of birds instead of classifying only between cats and dogs
+My original problem was to create a cat and dog classifier. After I began
+more work it seemed like too easy of a problem to solve compared to the
+very large bird dataset that professor Redmon posted to Kaggle. 
+I changed my project to be a bird classifier and classify 555 types of 
+birds instead of classifying only between cats and dogs
 ```
 ### Previous work (including what you used for your method i.e. pretrained models)
 - I gathered lots of inspiration from the Pytorch tutorials that were posted on Tuesdays. When I started creating my classifier, I wanted to create something solely from scratch and after running my CNN and seeing the extremely low accuracy rate for both training and testing, I decided to follow advice that I received during office hours and build my project off of the tutorial base. 
