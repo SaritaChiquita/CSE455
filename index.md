@@ -1,10 +1,7 @@
 ## CSE 455 Final Project
 by Sarah Scott
 
-#### Kaggle Bird Classifier
-
-
-### Problem Description
+### Kaggle Bird Classifier - Problem Description
 ```markdown
 My original problem was to create a cat and dog classifier. After I began
 more work it seemed like too easy of a problem to solve compared to the
