@@ -1,8 +1,9 @@
 ## CSE 455 Final Project
-[Final Project Video Presentation](https://youtu.be/s8ON1AoQHXo) 
 by Sarah Scott
 
+[Final Project Video Presentation](https://youtu.be/s8ON1AoQHXo) 
 [Source Code](https://colab.research.google.com/drive/1EYdY-NgAJ3EEGwqK7FYY7n5zkrVKLwn5?usp=sharing)
+
 ### Kaggle Bird Classifier - Problem Description
 ```markdown
 My original problem was to create a cat and dog classifier. After I began
