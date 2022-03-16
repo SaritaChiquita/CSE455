@@ -1,5 +1,5 @@
 ## CSE 455 Final Project
-[Final Project PResentation](url) 
+[Final Project Presentation](www.google.com) 
 by Sarah Scott
 
 ### Kaggle Bird Classifier - Problem Description
@@ -49,7 +49,8 @@ which matched each bird name to the index of the training data folder.
 
 ### Results
 ```markdown
-My final results ended up being 99% training accuracy and 32.8% testing accuracy
+My final results ended up being 99% training accuracy 
+and 32.8% testing accuracy
 ```
 
 ### Discussion
