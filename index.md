@@ -26,13 +26,15 @@ contained images of these twelve birds. Since this is a much larger
 dataset, I became more focused on increasing my learning and testing
 rate. The odd thing is that when I transferred my Kaggle notebook to
 Google Colab, my training accuracy plummeted. It was around 99% when
-using Kaggle and then went down to 33% on Google Colab. To increase 
-the accuracy, I decided to use transfer learning and import a 
-pretrain model. I initially thought that the best model for this task
+using Kaggle and then went down to 33% on Google Colab. 
+
+-To increase the accuracy, I decided to use transfer learning and import 
+a pretrained model. I initially thought that the best model for this task
 was EfficientNet and I started experimenting with different batch 
 sizes, number of epochs, and the size of the testing and training 
 images to find the most accurate combination. Unfortunately, when I 
 used this model with the entire dataset, my accuracy crashed. 
+
 - This is when I began to use ResNet50 and both accuracies increased. 
 I then began to rework and include many of the data augmentations 
 that were listed in lecture (horizontal flips, color jitter, ect.) 
