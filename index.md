@@ -1,10 +1,8 @@
-## Sarah Scott's CSE 455 Final Project
+## CSE 455 Final Project
+by Sarah Scott
 
-Problem description
+### Kaggle Bird Classifier
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Previous work (including what you used for your method i.e. pretrained models)
