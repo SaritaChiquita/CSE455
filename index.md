@@ -8,7 +8,7 @@ by Sarah Scott
 ### Kaggle Bird Classifier - Problem Description
 ```markdown
 My original problem was to create a cat and dog classifier. After I began
-more work it seemed like too easy of a problem to solve compared to the
+, it seemed like too easy of a problem to solve compared to the
 very large bird dataset that professor Redmon posted to Kaggle. 
 I changed my project to be a bird classifier and classify 555 types of 
 birds instead of classifying only between cats and dogs
@@ -16,7 +16,7 @@ birds instead of classifying only between cats and dogs
 ### Previous work (including what you used for your method i.e. pretrained models)
 - I gathered lots of inspiration from the Pytorch tutorials that were posted on Tuesdays. When I started creating my classifier, I wanted to create something solely from scratch and after running my CNN and seeing the extremely low accuracy rate for both training and testing, I decided to follow advice that I received during office hours and build my project off of the tutorial base. 
 - I also wanted to use a pretrained model to help with my accuracy issue. When I first began, my testing accuracy was less than 1%, which given my small initial testing dataset, was less than randomly choosing one of the twelve bird names I was testing
-- I started with using EfficientNet because it is a pyvision pretrained model that utilizes BirdSnap and I thought that it might help me acheive a higher accuracy... But it did not.
+- I started with using EfficientNet because it is a pyvision pretrained model that utilizes BirdSnap and I thought that it might help me acheive a higher accuracy... But it did not. I spent days training and altering different aspects of the model on a subset of the Birds! data set and got very good training and testing accuracy. When I began to use the entire dataset, everything changed and my accuracy for both was very low.
 - Next, I experimented with ResNet 50, a 50 layer artificial neural network and after experiementing with different data augmentations, learning rates, and number of epochs, I was able to increase my training and testing accuracy.
 
 ### Your approach
@@ -64,5 +64,5 @@ What problems did you encounter?
 Are there next steps you would take if you kept working on the project?
 -I can definitely make this classifier better with more time. I have a definitive overfitting problem and I believe that I can fix this issue with adding more data      augmentation and cross-validation.
 How does your approach differ from others? Was that beneficial?
--I’m not sure if my approach differed from others, but I did get a lot of help during office hours to help me decide to start with a pretrained model. This helped me quite a bit because on my “from scratch” model, both accuracies were abysmal. 
+-I am not sure if my approach differed from others, but I did get a lot of help during office hours to help me decide to start with a pretrained model. This helped me quite a bit because on my “from scratch” model, both accuracies were abysmal. 
 
